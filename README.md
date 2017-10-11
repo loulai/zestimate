@@ -4,14 +4,9 @@
 Course Name: Predictive Analytics
 Section: CSCI-GA 3033-011
 Instructor: Prof. Anasse Bari
-Semester: 2017 fall
+Semester: Fall 2017
 Team Members: 
-Bofeng Hu (bh1779@nyu.edu)
-Yuanxu Wu (yw2983@nyu.edu)
-Guangli Jiang (gj659@nyu)
-Mengyao Zhu (mz2249@nyu.edu)
-Louise Y. Lai (ll2663@nyu.edu)
-Ziwei Wang (zw1651@nyu.edu)
+Bofeng Hu (bh1779@nyu.edu), Yuanxu Wu (yw2983@nyu.edu), Guangli Jiang (gj659@nyu.edu), Mengyao Zhu (mz2249@nyu.edu), Louise Y. Lai (ll2663@nyu.edu), Ziwei Wang (zw1651@nyu.edu)
 
 ### Abstract
 Real estate is almost the most expensive thing people may purchase in his or her lifetime, so evaluating the house price could always affect people's decisions in their life.  In order to ensure that homeowners have a trusted way to monitor this asset, Zillow offers Zestimate to help consumers make decisions with multiplied information about homes and housing market. In this project, we use valid home values data provided by Zillow to develop an algorithm that makes predictions about future sale price of homes and push the accuracy of Zestimate even further.
