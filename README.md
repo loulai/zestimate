@@ -1,5 +1,5 @@
 # Zestimate
-## Zillow’s Home Value Prediction (
+### Zillow’s Home Value Prediction
 
 Course Name: Predictive Analytics
 Section: CSCI-GA 3033-011
