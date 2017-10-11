@@ -5,12 +5,12 @@ Course Name: Predictive Analytics
 Section: CSCI-GA 3033-011
 Instructor: Prof. Anasse Bari
 Semester: 2017 fall
-Team Member: 
+Team Members: 
 Bofeng Hu (bh1779@nyu.edu)
 Yuanxu Wu (yw2983@nyu.edu)
 Guangli Jiang (gj659@nyu)
 Mengyao Zhu (mz2249@nyu.edu)
-Louise Y. Lai(ll2663@nyu.edu)
+Louise Y. Lai (ll2663@nyu.edu)
 Ziwei Wang (zw1651@nyu.edu)
 
 ### Abstract
