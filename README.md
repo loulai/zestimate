@@ -1,5 +1,5 @@
-# Zestimate
-### Zillow’s Home Value Prediction
+# $1.2 Million Zestimate Competition
+### Zillow’s Home Value Prediction Competition
 
 Course Name: Predictive Analytics | Section: CSCI-GA 3033-011 | Instructor: Prof. Anasse Bari | Semester: Fall 2017 | Team Members: 
 Bofeng Hu (bh1779@nyu.edu), Yuanxu Wu (yw2983@nyu.edu), Guangli Jiang (gj659@nyu.edu), Mengyao Zhu (mz2249@nyu.edu), Louise Y. Lai (ll2663@nyu.edu), Ziwei Wang (zw1651@nyu.edu)
