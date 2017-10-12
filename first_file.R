@@ -27,4 +27,9 @@ nrow(train_2016)    # 90,275
 View(prop_2016)
 View(train_2016)
 
-# todo: inner join to see the selected properties for train_2016. Is this random?
+# todo: inner join to see the selected properties for train_2016. Are they just random subsets?
+
+# Inner join 
+train_2016_joined <- merge(prop_2016, train_2016, by = "parcelid")
+View(train_2016_joined)
+
