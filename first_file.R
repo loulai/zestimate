@@ -31,5 +31,36 @@ View(train_2016)
 
 # Inner join 
 train_2016_joined <- merge(prop_2016, train_2016, by = "parcelid")
-View(train_2016_joined)
+train_2017_joined <- merge(prop_2017, train_2017, by = "parcelid")
+
+#====== Prediction
+
+# split test and train
+train <- train_2016_joined
+train_rough <- na.omit(train_2016_joined)
+lapply(train, levels)
+test <- train_2017_joined
+
+# fitting
+lm.fit1 <- lm(logerror ~ ., data = train_rough)
+summary(lm.fit1)
+View(train)
+
+####
+
+# creating actual predictions
+pred3 <- predict(lm.fit3, test_df2)
+test_df2 <- mutate(test_df2, predicted = pred3)
+
+# plotting predicted vs real
+ggplot(test_df2, aes(predicted, num_total_complaints)) + geom_point()
+
+# plotting regression (predicted = red, actual = grey)
+ggplot(data = test_df2) + geom_point(aes(mean_income, num_total_complaints), color = "gray") + geom_point(aes(mean_income, predicted), color = "red")
+
+mse(lm.fit3) # 2356.732
+
+
+
+
 
